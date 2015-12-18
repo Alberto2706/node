@@ -2,12 +2,47 @@ body{
 	background: black;
 	color: skyblue;
 }
+h1{
+	font-family: 'Bangers', cursive;
+	font-size: 4em;
+}
+h2{
+	font-family: 'Bree Serif', serif;
+}
 img{
 	max-width: 100%;
 	min-width: 100%;
 	max-height: 50%;
 	min-height: 50%;
 }
+a{
+	color: #FA1030;
+	font-family: 'Black Ops One', cursive;
+	font-size: 1.3em;
+}
 .quitar-float{
 	float: none;
+}
+.espacio-derecha{
+	margin-right: 10px;
+}
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+.azul{
+	background: #0C64B5;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.no-lista li{
+	list-style-type: none;
+	font-family: 'Black Ops One', cursive;
+	font-size: 1.7em;
 }
